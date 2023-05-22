@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  background-color: #E2E2E2;
 }
 
 body {
@@ -22,12 +23,18 @@ body {
 .mt-2rem {
   margin-top: 2rem;
 }
+.text-green{
+  color: #03300d;
+}
+.text-green-2{
+  color: #2e4b34;
+}
 
 header.hero {
+  background-image: linear-gradient(0deg, #E2E2E2, #fff 60%), linear-gradient(54deg, #E2E2E2, rgba(255, 131, 122, 0) 58%), linear-gradient(241deg, #E2E2E2, rgba(239, 152, 207, 0) 56%);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 50%;
 }
 
 header.hero h1 {
@@ -39,6 +46,12 @@ header.hero h1 {
 .carousel-item.active {
   display: flex;
 }
+
+header.hero img {
+  -webkit-filter: drop-shadow(25px 25px 25px rgba(116, 116, 116, 0.642));
+  filter: drop-shadow(25px 25px 25px rgba(117, 117, 117, 0.601));
+} 
+
 
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -66,13 +79,13 @@ header.hero h1 {
 }
 
 #services h3 strong {
-  color: #0C8774;
+  color: #094b18;
 }
 #benefits {
-  background: rgba(25, 118, 210, 0.08);
+  background: #87a78e8f;
 }
 #footer {
-  background: #2D4F6E;
+  background: #184222d8;
 }
 .check{
   width: 32px;
@@ -145,7 +158,6 @@ iframe {
     font-size: calc(1.375rem + 1.5vw) !important;
   }
   header.hero {
-    background: #ffffff;
     background-position: right bottom;
     background-size: cover;
     background-repeat: no-repeat;
