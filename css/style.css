@@ -1,6 +1,5 @@
 html {
   height: 100%;
-  background-color: #E2E2E2;
 }
 
 body {
@@ -90,6 +89,9 @@ header.hero img {
 .check{
   width: 32px;
 }
+#services {
+  background: #E2E2E2;
+}
 
 .social-media {
   width: 36px;
@@ -119,11 +121,6 @@ header.hero img {
 
 .dashed .col:last-child:after {
   right: 50%;
-}
-
-iframe { 
-  height: 545px; 
-  width: 104%;
 }
 
 @media (min-width: 576px){
@@ -204,55 +201,11 @@ iframe {
   #tutorial-section img {
     width: 60% !important;
   }
-  iframe {
-    height: 535px;
-  }
   header {
     padding: 0 7rem;
   }
   header .container{
     max-width: none;
-  }
-}
-@media (min-width: 1877px) {
-  #form-div {
-    width: 90%;
-  }
-}
-@media (min-width: 2042px) {
-  #form-div {
-    width: 80%;
-  }
-}
-@media (min-width: 2249px) {
-  #form-div {
-    width: 70%;
-  }
-}
-@media (min-width: 2515px) {
-  #form-div {
-    width: 60%;
-  }
-}
-@media (max-width: 390px) {
-  #form-col {
-    padding: 0; 
-  }
-}
-@media (max-width: 350px) {
-  #form-col { 
-    margin-left: -1.5rem;
-  }
-  #form-div {
-    width: 120%;
-  }
-}
-@media (max-width: 320px) {
-  #form-col { 
-    margin-left: -1.5rem;
-  }
-  #form-div {
-    width: 120%;
   }
 }
 
