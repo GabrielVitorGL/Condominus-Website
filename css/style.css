@@ -23,14 +23,14 @@ body {
   margin-top: 2rem;
 }
 .text-green{
-  color: #03300d;
+  color: #375c28;
 }
 .text-green-2{
-  color: #2e4b34;
+  color: #223a19;
 }
 
 header.hero {
-  background-image: linear-gradient(0deg, #E2E2E2, #fff 60%), linear-gradient(54deg, #E2E2E2, rgba(255, 131, 122, 0) 58%), linear-gradient(241deg, #E2E2E2, rgba(239, 152, 207, 0) 56%);
+  background-image: linear-gradient(0deg, #ebebeb, #fff 60%), linear-gradient(54deg, #ebebeb, rgba(255, 131, 122, 0) 58%), linear-gradient(241deg, #ebebeb, rgba(239, 152, 207, 0) 56%);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -90,7 +90,7 @@ header.hero img {
   width: 32px;
 }
 #services {
-  background: #E2E2E2;
+  background: #ebebeb;
 }
 
 .social-media {
