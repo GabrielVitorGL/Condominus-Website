@@ -190,6 +190,12 @@ header.hero img {
   header.hero{
     background-position: left 20% center;
   }
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .mt-lg-3rem {
+    margin-top: 3rem;
+  }
 }
 @media (min-width: 1200px) {
   header.hero h1 {
