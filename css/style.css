@@ -14,7 +14,7 @@ body {
 }
 
 .text-black-60 {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.92);
 }
 .fw-medium {
   font-weight: 500;
@@ -23,23 +23,69 @@ body {
   margin-top: 2rem;
 }
 .text-green{
-  color: #375c28;
+  color: #0a203b;
+  font-weight: 600;
 }
 .text-green-2{
-  color: #223a19;
+  color: #004F59;
 }
 
 header.hero {
-  background-image: linear-gradient(0deg, #ebebeb, #fff 60%), linear-gradient(54deg, #ebebeb, rgba(255, 131, 122, 0) 58%), linear-gradient(241deg, #ebebeb, rgba(239, 152, 207, 0) 56%);
+  background-image: url(../assets/img/background30.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
+.hero {
+  opacity: 1.2;
+}
+
+.hero .container {
+  opacity: 1;
+}
+
+.hero .btn{
+  background-color: #ffffff5d;
+}
+
+.hero .btn:hover{
+  color: #000000c0;
+}
+
+.hero .btn:hover{
+  background-color: #ffffff94;
+  color: #000000c0;
+}
+
+.hero .btn:active{
+  color: #0a203b;
+  background-color: white;
+}
+
+#services img {
+  filter: invert(50%);
+  filter: hue-rotate(40deg);
+}
+
 header.hero h1 {
+  color: #039298;
+  font-size: 64px !important;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 2.25rem;
+}
+
+@media (max-width: 576px){
+  header.hero h1 {
+    font-size: 44px !important;
+  }
+}
+
+@media (max-width: 367px){
+  header.hero h1 {
+    font-size: 32px !important;
+  }
 }
 
 .carousel-item.active {
@@ -70,27 +116,24 @@ header.hero img {
 }
 
 .carousel-indicators .btn.active{
-  color: rgba(79, 140, 129, 1);
-  background-color: #fff;
+  color: rgb(255, 255, 255);
+  background-color: #238a9a;
 }
 .carousel-indicators .btn.active:hover{
-  background-color: #e9e9e9;
+  background-color: #127e81;
 }
 
 #services h3 strong {
-  color: #094b18;
+  color: #004F59;
 }
 #benefits {
-  background: #87a78e8f;
+  background: rgba(8, 104, 116, 0.31);
 }
 #footer {
-  background: #184222d8;
+  background: #2a8b9a;
 }
 .check{
   width: 32px;
-}
-#services {
-  background: #ebebeb;
 }
 
 .social-media {
@@ -121,6 +164,34 @@ header.hero img {
 
 .dashed .col:last-child:after {
   right: 50%;
+}
+
+.btn #hero {
+  border-radius: 16px !important;
+  border-width: 2px;
+  font-weight: 600;
+  font-size: 18px !important;
+}
+
+.btn {
+  border-width: 2px;
+  font-weight: 600;
+  font-size: 18px !important;
+}
+
+.btn-footer:hover {
+  background-color: #ebebeb !important;
+  color: #004F59;
+}
+
+.btn-footer:active {
+  background-color: #e1e1e1 !important;
+  border-color: #e1e1e1;
+  color: #004F59 !important;
+}
+
+.credits {
+  font-size: 12px;
 }
 
 @media (min-width: 576px){
