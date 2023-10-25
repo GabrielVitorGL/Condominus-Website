@@ -32,9 +32,9 @@ body {
 
 header.hero {
   background-image: url(../assets/img/background30.png);
-  background-position: right bottom;
+  //background-position: right bottom;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-size: cover;
 }
 
 .hero {
